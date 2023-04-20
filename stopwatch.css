@@ -1,0 +1,38 @@
+body{
+    background-image: url(stopwatch.jpg);
+    background-size: cover;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    font-family: "cursive";
+    font-size: 25px;
+}
+.stopwatch{
+    text-align: center;
+    padding: 20px;
+    letter-spacing: 3px;
+    color:#202220fa;
+    border-radius: 60px;
+}
+button{
+    border-radius: 50px;
+    border: 10px  black;
+    cursor: pointer;
+    font-size: 30px;
+    padding: 10px;
+    width: 135px;
+}
+button:hover{
+    background-color: rgba(48, 120, 120, 0.307);
+    color: aliceblue;
+}
+.stopwatch:hover{
+    background-color: rgba(8, 225, 232, 0.542);
+}
+h1,p{
+    font-size: 45px;
+    text-shadow: 4px 5px 6px navy;
+    color: whitesmoke;
+}
